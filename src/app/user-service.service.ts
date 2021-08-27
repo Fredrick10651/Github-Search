@@ -9,9 +9,7 @@ import "rxjs";
 export class UserServiceService {
 
   private userName: string;
-  private clientID = environment.clientID;
-  private clientSecret = environment.clientSecret;
-  private key = environment.apiKey;
+  key: string;
 
   constructor(private http: HttpClient) {
     console.log("service up and go!!!");
