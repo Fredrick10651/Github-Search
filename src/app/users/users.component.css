@@ -1,0 +1,95 @@
+div{
+  box-sizing: border-box;
+}
+
+.card {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    -webkit-box-shadow: 0 0 5px 2px #464242;
+    -moz-box-shadow: 0 0 5px 2px #464242;
+    box-shadow: 0 0 5px 2px #464242;
+    /* max-width: 300px; */
+    margin: auto;
+    text-align: center;
+  }
+
+.card-header{
+  background-color: blanchedalmond;
+}
+
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    /* color: white; */
+    /* background-color: #000; */
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .fa-spinner, .fa-refresh{
+    font-size: 40px;
+  }
+
+  div{
+    overflow: hidden;
+}
+
+.bg-button{
+  background-color: black;
+  color: white;
+}
+
+.flow{
+  max-height:600px;
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 768px) {
+.flow{
+  max-height:100%;
+  overflow-y: auto;
+}
+}
+
+/* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: green;
+}
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  .card-header div p{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .card-footer p, .card-footer a{
+    margin: 1px 0px;
+    padding: 1px 0px;
+  }
