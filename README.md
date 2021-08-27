@@ -36,7 +36,7 @@
 ## CONTACTS
 
 * For any enquiries and comments, reach out at: 
-* gikundamike@gmail.com
+* mutsotsofredrick@gmail.com
 
 ## LICENSE
 
